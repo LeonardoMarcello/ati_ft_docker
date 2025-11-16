@@ -1,0 +1,16 @@
+services:
+  ati:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ati_ft_driver:latest
+    network_mode: host
+    ipc: host
+    tty: true
+    environment:
+      - ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-0}
+      - RMW_IMPLEMENTATION=${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}
+    volumes:
+      - ./config:/workspace/config:ro   # Mount your setup.yaml here
+    privileged: true
+    command: ros2 launch netft_rdt_driver ft_bringup.launch.py

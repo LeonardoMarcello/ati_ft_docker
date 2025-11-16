@@ -1,0 +1,30 @@
+sensor_1:
+    ip: "172.16.0.20"
+    bias: True
+    rate: 50.0
+    frame_id: "ft_frame"
+    alpha: 0.0
+    rot: 0.0
+    scale_x: 1.0
+    scale_y: 1.0
+    scale_z: 1.0
+# sensor_2:
+#   ip: "172.16.0.208"
+# 	bias: True
+# 	rate: 	 50
+# 	frame_id:    "ft_mini45"
+# 	alpha:	 0
+# 	rot:	 0
+# 	scale_x:	 1
+# 	scale_y:	 1
+# 	scale_z:	 1
+# sensor_2:
+#   ip: "172.16.0.14"
+# 	bias: True
+# 	rate: 	 50
+# 	frame_id:    "ft_nano17"
+# 	alpha:	 0
+# 	rot:	 0
+# 	scale_x:	 1
+# 	scale_y:	 1
+# 	scale_z:	 1
