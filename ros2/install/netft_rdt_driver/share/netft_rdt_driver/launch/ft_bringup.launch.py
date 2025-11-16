@@ -1,1 +1,0 @@
-/home/leo/Desktop/ati_ft_docker/ros2/src/netft_rdt_driver/launch/ft_bringup.launch.py

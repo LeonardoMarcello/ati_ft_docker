@@ -1,1 +1,0 @@
-/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver/rosidl_cmake/srv/StringCmd_Request.msg

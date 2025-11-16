@@ -1,4 +1,0 @@
-srv/StringCmd.idl
-srv/StringCmd.srv
-srv/StringCmd_Request.msg
-srv/StringCmd_Response.msg
