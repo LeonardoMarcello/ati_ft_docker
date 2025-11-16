@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnetft_rdt_driver_lib.a CMakeFiles/netft_rdt_driver_lib.dir/src/netft_rdt_driver.cpp.o CMakeFiles/netft_rdt_driver_lib.dir/src/netft_rdt_bias.cpp.o CMakeFiles/netft_rdt_driver_lib.dir/src/ft_listener.cpp.o
+/usr/bin/ranlib libnetft_rdt_driver_lib.a

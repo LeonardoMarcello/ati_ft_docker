@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000577] (netft_rdt_driver) JobQueued: {'identifier': 'netft_rdt_driver', 'dependencies': OrderedDict()}
+[0.000685] (netft_rdt_driver) JobStarted: {'identifier': 'netft_rdt_driver'}
+[0.006267] (netft_rdt_driver) JobProgress: {'identifier': 'netft_rdt_driver', 'progress': 'cmake'}
+[0.007272] (netft_rdt_driver) JobProgress: {'identifier': 'netft_rdt_driver', 'progress': 'build'}
+[0.008349] (netft_rdt_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver', '--', '-j20', '-l20'], 'cwd': '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'leo'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leo'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/leo/Desktop/ati_ft_docker'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'pop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2453'), ('SYSTEMD_EXEC_PID', '2652'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/leo/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3271'), ('COLCON_PREFIX_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'leo'), ('JOURNAL_STREAM', '9:19163'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/leo/miniconda3/share/rubygems/bin:/home/leo/miniconda3/bin:/opt/ros/humble/bin:/home/leo/miniconda3/condabin:/home/leo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/leo/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2625,unix/pop-os:/tmp/.ICE-unix/2625'), ('INVOCATION_ID', 'eae9e4eefa4a4436a6337a01511afe71'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-32daea5a47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/leo/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('GEM_HOME', '/home/leo/miniconda3/share/rubygems/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/leo/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('CONDA_EXE', '/home/leo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/leo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/leo/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver:/opt/ros/humble')]), 'shell': False}
+[0.086482] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_generator_c\x1b[0m\n'}
+[0.094903] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver_lib\x1b[0m\n'}
+[0.099975] (-) TimerEvent: {}
+[0.110119] (netft_rdt_driver) StdoutLine: {'line': b'[  2%] Built target netft_rdt_driver__cpp\n'}
+[0.115868] (netft_rdt_driver) StdoutLine: {'line': b'[ 10%] Built target netft_rdt_driver__rosidl_generator_c\n'}
+[0.135501] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.137668] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.139750] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.140310] (netft_rdt_driver) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_symlink_netft_rdt_driver\n'}
+[0.140648] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_c\x1b[0m\n'}
+[0.142701] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.147544] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.155456] (netft_rdt_driver) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/netft_rdt_driver_lib.dir/src/netft_rdt_bias.cpp.o\x1b[0m\n'}
+[0.155738] (netft_rdt_driver) StdoutLine: {'line': b'[ 21%] Built target netft_rdt_driver__rosidl_typesupport_fastrtps_c\n'}
+[0.156480] (netft_rdt_driver) StdoutLine: {'line': b'[ 29%] Built target netft_rdt_driver__rosidl_typesupport_c\n'}
+[0.161500] (netft_rdt_driver) StdoutLine: {'line': b'[ 37%] Built target netft_rdt_driver__rosidl_typesupport_cpp\n'}
+[0.162502] (netft_rdt_driver) StdoutLine: {'line': b'[ 45%] Built target netft_rdt_driver__rosidl_typesupport_introspection_cpp\n'}
+[0.162954] (netft_rdt_driver) StdoutLine: {'line': b'[ 54%] Built target netft_rdt_driver__rosidl_typesupport_fastrtps_cpp\n'}
+[0.170344] (netft_rdt_driver) StdoutLine: {'line': b'[ 62%] Built target netft_rdt_driver__rosidl_typesupport_introspection_c\n'}
+[0.191130] (netft_rdt_driver) StdoutLine: {'line': b'[ 62%] Built target netft_rdt_driver\n'}
+[0.200055] (-) TimerEvent: {}
+[0.212245] (netft_rdt_driver) StdoutLine: {'line': b'[ 64%] Built target netft_rdt_driver__py\n'}
+[0.223120] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_generator_py\x1b[0m\n'}
+[0.233716] (netft_rdt_driver) StdoutLine: {'line': b'[ 70%] Built target netft_rdt_driver__rosidl_generator_py\n'}
+[0.243351] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.243684] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.244674] (netft_rdt_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.254226] (netft_rdt_driver) StdoutLine: {'line': b'[ 75%] Built target netft_rdt_driver__rosidl_typesupport_c__pyext\n'}
+[0.258324] (netft_rdt_driver) StdoutLine: {'line': b'[ 86%] Built target netft_rdt_driver__rosidl_typesupport_introspection_c__pyext\n'}
+[0.258436] (netft_rdt_driver) StdoutLine: {'line': b'[ 86%] Built target netft_rdt_driver__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.300142] (-) TimerEvent: {}
+[0.331235] (netft_rdt_driver) StdoutLine: {'line': b'running egg_info\n'}
+[0.344776] (netft_rdt_driver) StdoutLine: {'line': b'writing netft_rdt_driver.egg-info/PKG-INFO\n'}
+[0.345095] (netft_rdt_driver) StdoutLine: {'line': b'writing dependency_links to netft_rdt_driver.egg-info/dependency_links.txt\n'}
+[0.345291] (netft_rdt_driver) StdoutLine: {'line': b'writing top-level names to netft_rdt_driver.egg-info/top_level.txt\n'}
+[0.385212] (netft_rdt_driver) StdoutLine: {'line': b"reading manifest file 'netft_rdt_driver.egg-info/SOURCES.txt'\n"}
+[0.385831] (netft_rdt_driver) StdoutLine: {'line': b"writing manifest file 'netft_rdt_driver.egg-info/SOURCES.txt'\n"}
+[0.400273] (-) TimerEvent: {}
+[0.414171] (netft_rdt_driver) StdoutLine: {'line': b'[ 86%] Built target ament_cmake_python_build_netft_rdt_driver_egg\n'}
+[0.500422] (-) TimerEvent: {}
+[0.600788] (-) TimerEvent: {}
+[0.701144] (-) TimerEvent: {}
+[0.801540] (-) TimerEvent: {}
+[0.901850] (-) TimerEvent: {}
+[1.002184] (-) TimerEvent: {}
+[1.102517] (-) TimerEvent: {}
+[1.202944] (-) TimerEvent: {}
+[1.303351] (-) TimerEvent: {}
+[1.403672] (-) TimerEvent: {}
+[1.504026] (-) TimerEvent: {}
+[1.604351] (-) TimerEvent: {}
+[1.704684] (-) TimerEvent: {}
+[1.804993] (-) TimerEvent: {}
+[1.905292] (-) TimerEvent: {}
+[2.005675] (-) TimerEvent: {}
+[2.105938] (-) TimerEvent: {}
+[2.206256] (-) TimerEvent: {}
+[2.306574] (-) TimerEvent: {}
+[2.406986] (-) TimerEvent: {}
+[2.507538] (-) TimerEvent: {}
+[2.607990] (-) TimerEvent: {}
+[2.708437] (-) TimerEvent: {}
+[2.808916] (-) TimerEvent: {}
+[2.909253] (-) TimerEvent: {}
+[3.009610] (-) TimerEvent: {}
+[3.109942] (-) TimerEvent: {}
+[3.210244] (-) TimerEvent: {}
+[3.310563] (-) TimerEvent: {}
+[3.410934] (-) TimerEvent: {}
+[3.511376] (-) TimerEvent: {}
+[3.611822] (-) TimerEvent: {}
+[3.712272] (-) TimerEvent: {}
+[3.812670] (-) TimerEvent: {}
+[3.912970] (-) TimerEvent: {}
+[4.013328] (-) TimerEvent: {}
+[4.020585] (netft_rdt_driver) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX static library libnetft_rdt_driver_lib.a\x1b[0m\n'}
+[4.113443] (-) TimerEvent: {}
+[4.155813] (netft_rdt_driver) StdoutLine: {'line': b'[ 94%] Built target netft_rdt_driver_lib\n'}
+[4.174736] (netft_rdt_driver) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_node.cpp.o\x1b[0m\n'}
+[4.213557] (-) TimerEvent: {}
+[4.313905] (-) TimerEvent: {}
+[4.414299] (-) TimerEvent: {}
+[4.514669] (-) TimerEvent: {}
+[4.615127] (-) TimerEvent: {}
+[4.715583] (-) TimerEvent: {}
+[4.815990] (-) TimerEvent: {}
+[4.916460] (-) TimerEvent: {}
+[5.016896] (-) TimerEvent: {}
+[5.117222] (-) TimerEvent: {}
+[5.217626] (-) TimerEvent: {}
+[5.317992] (-) TimerEvent: {}
+[5.418376] (-) TimerEvent: {}
+[5.518639] (-) TimerEvent: {}
+[5.618946] (-) TimerEvent: {}
+[5.719367] (-) TimerEvent: {}
+[5.819748] (-) TimerEvent: {}
+[5.920092] (-) TimerEvent: {}
+[6.020338] (-) TimerEvent: {}
+[6.120593] (-) TimerEvent: {}
+[6.220935] (-) TimerEvent: {}
+[6.321217] (-) TimerEvent: {}
+[6.421573] (-) TimerEvent: {}
+[6.521922] (-) TimerEvent: {}
+[6.622149] (-) TimerEvent: {}
+[6.722435] (-) TimerEvent: {}
+[6.822688] (-) TimerEvent: {}
+[6.923067] (-) TimerEvent: {}
+[7.023287] (-) TimerEvent: {}
+[7.123541] (-) TimerEvent: {}
+[7.223794] (-) TimerEvent: {}
+[7.324029] (-) TimerEvent: {}
+[7.424302] (-) TimerEvent: {}
+[7.524528] (-) TimerEvent: {}
+[7.624774] (-) TimerEvent: {}
+[7.725004] (-) TimerEvent: {}
+[7.825262] (-) TimerEvent: {}
+[7.925530] (-) TimerEvent: {}
+[8.025783] (-) TimerEvent: {}
+[8.126017] (-) TimerEvent: {}
+[8.226222] (-) TimerEvent: {}
+[8.326425] (-) TimerEvent: {}
+[8.426635] (-) TimerEvent: {}
+[8.526897] (-) TimerEvent: {}
+[8.627141] (-) TimerEvent: {}
+[8.727398] (-) TimerEvent: {}
+[8.827616] (-) TimerEvent: {}
+[8.927945] (-) TimerEvent: {}
+[9.002520] (netft_rdt_driver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable netft_node\x1b[0m\n'}
+[9.028071] (-) TimerEvent: {}
+[9.128486] (-) TimerEvent: {}
+[9.228936] (-) TimerEvent: {}
+[9.329246] (-) TimerEvent: {}
+[9.429569] (-) TimerEvent: {}
+[9.479764] (netft_rdt_driver) StdoutLine: {'line': b'[100%] Built target netft_node\n'}
+[9.498968] (netft_rdt_driver) CommandEnded: {'returncode': 0}
+[9.501212] (netft_rdt_driver) JobProgress: {'identifier': 'netft_rdt_driver', 'progress': 'install'}
+[9.519982] (netft_rdt_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver'], 'cwd': '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('USER', 'leo'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/leo'), ('CHROME_DESKTOP', 'code.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/leo/Desktop/ati_ft_docker'), ('TERM_PROGRAM_VERSION', '1.105.1'), ('DESKTOP_SESSION', 'pop'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'pop'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2453'), ('SYSTEMD_EXEC_PID', '2652'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('_CONDA_ROOT', '/home/leo/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3271'), ('COLCON_PREFIX_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'leo'), ('JOURNAL_STREAM', '9:19163'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'leo'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/leo/miniconda3/share/rubygems/bin:/home/leo/miniconda3/bin:/opt/ros/humble/bin:/home/leo/miniconda3/condabin:/home/leo/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/leo/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/pop-os:@/tmp/.ICE-unix/2625,unix/pop-os:/tmp/.ICE-unix/2625'), ('INVOCATION_ID', 'eae9e4eefa4a4436a6337a01511afe71'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'pop'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-32daea5a47.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/leo/miniconda3/bin/python'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'pop:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'pop'), ('GEM_HOME', '/home/leo/miniconda3/share/rubygems/'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/leo/miniconda3/bin/conda'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-pop:/etc/xdg'), ('CONDA_EXE', '/home/leo/miniconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/pop:/usr/share/gnome:/home/leo/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/'), ('PYTHONPATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/leo/miniconda3'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver:/opt/ros/humble')]), 'shell': False}
+[9.529707] (-) TimerEvent: {}
+[9.531700] (netft_rdt_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.532253] (netft_rdt_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.532577] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/rosidl_interfaces/netft_rdt_driver\n'}
+[9.543150] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.559970] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__functions.h\n'}
+[9.576745] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__struct.h\n'}
+[9.594608] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__type_support.h\n'}
+[9.610903] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/string_cmd.h\n'}
+[9.627452] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/library_path.sh\n'}
+[9.629950] (-) TimerEvent: {}
+[9.645595] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/library_path.dsv\n'}
+[9.662734] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.673744] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[9.685672] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.701333] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__builder.hpp\n'}
+[9.718567] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__struct.hpp\n'}
+[9.730058] (-) TimerEvent: {}
+[9.732069] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__traits.hpp\n'}
+[9.744267] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__type_support.hpp\n'}
+[9.755120] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/string_cmd.hpp\n'}
+[9.766807] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.779654] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.793899] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.812135] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_introspection_c.h\n'}
+[9.824072] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.830232] (-) TimerEvent: {}
+[9.843879] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/pythonpath.sh\n'}
+[9.859903] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/pythonpath.dsv\n'}
+[9.872515] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.882976] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.895214] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.909084] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.921691] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/__init__.py\n'}
+[9.930364] (-) TimerEvent: {}
+[9.940407] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/_netft_rdt_driver_s.ep.rosidl_typesupport_c.c\n'}
+[9.953922] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/_netft_rdt_driver_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.963574] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/_netft_rdt_driver_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.976785] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/libnetft_rdt_driver__rosidl_generator_py.so\n'}
+[9.985964] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so\n'}
+[9.996964] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so\n'}
+[10.007881] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so\n'}
+[10.020164] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/__init__.py\n'}
+[10.030505] (-) TimerEvent: {}
+[10.032162] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/_string_cmd.py\n'}
+[10.049787] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/_string_cmd_s.c\n'}
+[10.067560] (netft_rdt_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so\n'}
+[10.068026] (netft_rdt_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so\n'}
+[10.068340] (netft_rdt_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so\n'}
+[10.068658] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd.idl\n'}
+[10.083828] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd.srv\n'}
+[10.100834] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd_Request.msg\n'}
+[10.114093] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd_Response.msg\n'}
+[10.130518] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/netft_rdt_driver/libnetft_rdt_driver_lib.a\n'}
+[10.130949] (-) TimerEvent: {}
+[10.145459] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/netft_rdt_driver/netft_node\n'}
+[10.159404] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/README.md\n'}
+[10.169894] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_2_sensors.launch\n'}
+[10.180472] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_bringup.launch.py\n'}
+[10.201478] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_nano_sensor.launch\n'}
+[10.213304] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_sensor.launch\n'}
+[10.225952] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_sensor.perspective\n'}
+[10.231052] (-) TimerEvent: {}
+[10.236388] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/launch_rqt.sh\n'}
+[10.249657] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/config/setup.yaml\n'}
+[10.262883] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/package_run_dependencies/netft_rdt_driver\n'}
+[10.276164] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/parent_prefix_path/netft_rdt_driver\n'}
+[10.292262] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/ament_prefix_path.sh\n'}
+[10.303633] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/ament_prefix_path.dsv\n'}
+[10.313709] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/path.sh\n'}
+[10.327640] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/path.dsv\n'}
+[10.331156] (-) TimerEvent: {}
+[10.341551] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.bash\n'}
+[10.356777] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.sh\n'}
+[10.374546] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.zsh\n'}
+[10.390135] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.dsv\n'}
+[10.409460] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/package.dsv\n'}
+[10.423165] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/packages/netft_rdt_driver\n'}
+[10.431262] (-) TimerEvent: {}
+[10.439401] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/rosidl_cmake-extras.cmake\n'}
+[10.448829] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.455686] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.462849] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.471853] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.481320] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.490810] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.503893] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driverConfig.cmake\n'}
+[10.517792] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driverConfig-version.cmake\n'}
+[10.531168] (netft_rdt_driver) StdoutLine: {'line': b'-- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/package.xml\n'}
+[10.531389] (-) TimerEvent: {}
+[10.544461] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_c.so\n'}
+[10.545275] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_c.so" to ""\n'}
+[10.545556] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_c.so\n'}
+[10.546281] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[10.546525] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.547805] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[10.548232] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_c.so\n'}
+[10.548772] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_c.so" to ""\n'}
+[10.548927] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_c.so\n'}
+[10.549385] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_c.so" to ""\n'}
+[10.549581] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_cpp.so\n'}
+[10.550165] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[10.550348] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_cpp.so\n'}
+[10.550807] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_cpp.so" to ""\n'}
+[10.591577] (netft_rdt_driver) StdoutLine: {'line': b"Listing '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver'...\n"}
+[10.591942] (netft_rdt_driver) StdoutLine: {'line': b"Compiling '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/__init__.py'...\n"}
+[10.592054] (netft_rdt_driver) StdoutLine: {'line': b"Listing '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv'...\n"}
+[10.592139] (netft_rdt_driver) StdoutLine: {'line': b"Compiling '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/__init__.py'...\n"}
+[10.592226] (netft_rdt_driver) StdoutLine: {'line': b"Compiling '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/_string_cmd.py'...\n"}
+[10.598270] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_py.so\n'}
+[10.598467] (netft_rdt_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_py.so" to ""\n'}
+[10.598524] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_cExport.cmake\n'}
+[10.598576] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.598639] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.598863] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.599161] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_cppExport.cmake\n'}
+[10.599313] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.599476] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.599619] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.599775] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.599952] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cExport.cmake\n'}
+[10.600149] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.600416] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.600661] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.600966] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cppExport.cmake\n'}
+[10.601248] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.601507] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_pyExport.cmake\n'}
+[10.601607] (netft_rdt_driver) StdoutLine: {'line': b'-- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.603771] (netft_rdt_driver) CommandEnded: {'returncode': 0}
+[10.631375] (netft_rdt_driver) JobEnded: {'identifier': 'netft_rdt_driver', 'rc': 0}
+[10.632139] (-) TimerEvent: {}
+[10.632203] (-) EventReactorShutdown: {}

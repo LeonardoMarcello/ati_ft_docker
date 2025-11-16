@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver/libnetft_rdt_driver_lib.a" "/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver/netft_node" "TARGETS" "netft_rdt_driver_lib" "netft_node" "DESTINATION" "lib/netft_rdt_driver")

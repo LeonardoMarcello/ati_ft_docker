@@ -1,0 +1,1 @@
+/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver/rosidl_generator_c/netft_rdt_driver/msg/rosidl_generator_c__visibility_control.h

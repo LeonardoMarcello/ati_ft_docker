@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "netft_rdt_driver__py",
+		"source" : "/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver/netft_rdt_driver__py"
+	}
+}

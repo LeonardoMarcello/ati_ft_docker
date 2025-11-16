@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver/rosidl_generator_py/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so" "TARGETS" "netft_rdt_driver__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.12/site-packages/netft_rdt_driver")

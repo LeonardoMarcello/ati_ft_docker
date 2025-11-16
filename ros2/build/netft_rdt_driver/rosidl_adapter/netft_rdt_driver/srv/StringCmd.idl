@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from netft_rdt_driver/srv/StringCmd.srv
+// generated code does not contain a copyright notice
+
+
+module netft_rdt_driver {
+  module srv {
+    struct StringCmd_Request {
+      string cmd;
+    };
+    struct StringCmd_Response {
+      string res;
+    };
+  };
+};

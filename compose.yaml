@@ -11,6 +11,6 @@ services:
       - ROS_DOMAIN_ID=${ROS_DOMAIN_ID:-0}
       - RMW_IMPLEMENTATION=${RMW_IMPLEMENTATION:-rmw_cyclonedds_cpp}
     volumes:
-      - ./config:/workspace/config:ro   # Mount your setup.yaml here
+      - ./ros2/src/netft_rdt_driver/config:/workspace/src/netft_rdt_driver/config
     privileged: true
     command: ros2 launch netft_rdt_driver ft_bringup.launch.py

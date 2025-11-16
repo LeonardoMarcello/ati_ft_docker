@@ -1,0 +1,6 @@
+{
+  "package_name": "netft_rdt_driver",
+  "non_idl_tuples": [
+    "/home/leo/Desktop/ati_ft_docker/ros2/src/netft_rdt_driver:srv/StringCmd.srv"
+  ]
+}

@@ -22,8 +22,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/StringCmd.srv"
   DEPENDENCIES std_msgs
 )
-# Get the generated typesupport target
-rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
 
 # --- Include dirs ---
 include_directories(include)
@@ -45,18 +43,21 @@ ament_target_dependencies(${PROJECT_NAME}_lib
   tf2_ros
 )
 
-# Include your own headers
+# Include generated service headers
 target_include_directories(${PROJECT_NAME}_lib PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<BUILD_INTERFACE:${CMAKE_CURRENT_BINARY_DIR}/rosidl_generator_cpp>
   $<INSTALL_INTERFACE:include>
 )
 
+# Make sure library depends on generated types
+rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+add_dependencies(${PROJECT_NAME}_lib ${cpp_typesupport_target})
+target_link_libraries(${PROJECT_NAME}_lib ${cpp_typesupport_target})
 
 # --- Node executable ---
 add_executable(netft_node src/netft_node.cpp)
 target_link_libraries(netft_node ${PROJECT_NAME}_lib Boost::program_options Boost::thread)
-
 
 ament_target_dependencies(netft_node
   rclcpp
@@ -67,11 +68,8 @@ ament_target_dependencies(netft_node
   tf2_ros
 )
 
-# Make node depend on generated service
-rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+# Ensure node depends on service
 add_dependencies(netft_node ${cpp_typesupport_target})
-target_link_libraries(netft_node ${cpp_typesupport_target})
-
 
 # --- Install ---
 install(TARGETS

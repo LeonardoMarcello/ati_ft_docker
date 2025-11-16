@@ -36,7 +36,8 @@ RUN mkdir -p src
 # ---------------------------
 # Copy your package
 # ---------------------------
-COPY ros2/src/netft_rdt_driver src/netft_rdt_driver
+COPY ros2/src/netft_rdt_driver src/
+
 
 # ---------------------------
 # Build workspace

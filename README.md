@@ -4,8 +4,6 @@
 
 The repository reimplement a portable dockerization of the [netft_rdt_drive](https://github.com/epfl-lasa/net-ft-ros) repository to ease its integration in a ROS2 framework.
 
-[![ROS Docker Image](https://github.com/husarion/realsense-docker/actions/workflows/ros-docker-image.yaml/badge.svg)](https://github.com/husarion/realsense-docker/actions/workflows/ros-docker-image.yaml)
-
 ## Prepare Environment
 
 **1. Connect the Device**
@@ -30,27 +28,26 @@ Set IP F/T tactip nano at 172.16.0.20
 **1. Clone the Repository**
 
 ```bash
-git clone https://github.com/LeonardoMarcello/realsense-docker.git
+git clone https://github.com/LeonardoMarcello/ati_ft_docker.git
 ```
 
 **2. Configure the Device**
 
-To manually configure the device parameters go to [**setup file**](https://github.com/epfl-lasa/net-ft-ros/blob/master/launch/ft_sensor.launch) ni ros2/src/netft_rdt_driver/config/setup.yaml (TO DO: docker intreface with )
+To manually configure the device parameters go to [**setup file**](https://github.com/LeonardoMarcello/ati_ft_docker/blob/c0906ef8c5ac9c97ed80aa2d764fab94e091821f/ros2/src/netft_rdt_driver/config/setup.yaml) located at ros2/src/netft_rdt_driver/config/setup.yaml
 
 ```bash
-docker compose up ati-configure
+./ati-configure.sh
 ```
 
-**2. Activate the Device**
+**3. Activate the Device**
 
 ```bash
 docker compose up ati
 ```
 
 # Net-FT ros2 (netft_rdt_driver)
-[![Build Status](https://travis-ci.org/epfl-lasa/net-ft-ros.svg?branch=master)](https://travis-ci.org/epfl-lasa/net-ft-ros)
 
-ROS2 package for the ATI 6-axis force torque sensor.
+ROS2 package for the ATI 6-axis force torque sensor. It extend the ROS1 [net-ft-ros](https://travis-ci.org/epfl-lasa/net-ft-ros) package
 
 ## Hardware setup
 

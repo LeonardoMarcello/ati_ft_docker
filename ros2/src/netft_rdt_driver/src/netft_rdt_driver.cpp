@@ -164,7 +164,9 @@ NetFTRDTDriver::NetFTRDTDriver(const std::string &address) :
   {
     boost::unique_lock<boost::mutex> lock(mutex_);
     if (packet_count_ == 0) {
-      throw std::runtime_error("No data received from NetFT device");
+      std::stringstream ss;
+      ss << "No data received from NetFT device at " << address_;
+      throw std::runtime_error(ss.str());
     }
   }
 
@@ -213,7 +215,9 @@ NetFTRDTDriver::NetFTRDTDriver(const std::string &address, rclcpp::Node::SharedP
   {
     boost::unique_lock<boost::mutex> lock(mutex_);
     if (packet_count_ == 0) {
-      throw std::runtime_error("No data received from NetFT device");
+      std::stringstream ss;
+      ss << "No data received from NetFT device at " << address_;
+      throw std::runtime_error(ss.str());
     }
   }
 

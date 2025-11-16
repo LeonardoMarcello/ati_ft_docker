@@ -1,0 +1,161 @@
+[0.009s] Invoking command in '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver -- -j20 -l20
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_generator_c[0m
+[0.095s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver_lib[0m
+[0.110s] [  2%] Built target netft_rdt_driver__cpp
+[0.116s] [ 10%] Built target netft_rdt_driver__rosidl_generator_c
+[0.135s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_introspection_cpp[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_fastrtps_c[0m
+[0.139s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_fastrtps_cpp[0m
+[0.140s] [ 10%] Built target ament_cmake_python_symlink_netft_rdt_driver
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_c[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_cpp[0m
+[0.147s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_introspection_c[0m
+[0.155s] [ 16%] [32mBuilding CXX object CMakeFiles/netft_rdt_driver_lib.dir/src/netft_rdt_bias.cpp.o[0m
+[0.155s] [ 21%] Built target netft_rdt_driver__rosidl_typesupport_fastrtps_c
+[0.156s] [ 29%] Built target netft_rdt_driver__rosidl_typesupport_c
+[0.161s] [ 37%] Built target netft_rdt_driver__rosidl_typesupport_cpp
+[0.162s] [ 45%] Built target netft_rdt_driver__rosidl_typesupport_introspection_cpp
+[0.162s] [ 54%] Built target netft_rdt_driver__rosidl_typesupport_fastrtps_cpp
+[0.170s] [ 62%] Built target netft_rdt_driver__rosidl_typesupport_introspection_c
+[0.191s] [ 62%] Built target netft_rdt_driver
+[0.212s] [ 64%] Built target netft_rdt_driver__py
+[0.223s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_generator_py[0m
+[0.233s] [ 70%] Built target netft_rdt_driver__rosidl_generator_py
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_introspection_c__pyext[0m
+[0.243s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_c__pyext[0m
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target netft_rdt_driver__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.254s] [ 75%] Built target netft_rdt_driver__rosidl_typesupport_c__pyext
+[0.258s] [ 86%] Built target netft_rdt_driver__rosidl_typesupport_introspection_c__pyext
+[0.258s] [ 86%] Built target netft_rdt_driver__rosidl_typesupport_fastrtps_c__pyext
+[0.331s] running egg_info
+[0.344s] writing netft_rdt_driver.egg-info/PKG-INFO
+[0.344s] writing dependency_links to netft_rdt_driver.egg-info/dependency_links.txt
+[0.345s] writing top-level names to netft_rdt_driver.egg-info/top_level.txt
+[0.385s] reading manifest file 'netft_rdt_driver.egg-info/SOURCES.txt'
+[0.385s] writing manifest file 'netft_rdt_driver.egg-info/SOURCES.txt'
+[0.414s] [ 86%] Built target ament_cmake_python_build_netft_rdt_driver_egg
+[4.020s] [ 89%] [32m[1mLinking CXX static library libnetft_rdt_driver_lib.a[0m
+[4.155s] [ 94%] Built target netft_rdt_driver_lib
+[4.174s] [ 97%] [32mBuilding CXX object CMakeFiles/netft_node.dir/src/netft_node.cpp.o[0m
+[9.002s] [100%] [32m[1mLinking CXX executable netft_node[0m
+[9.479s] [100%] Built target netft_node
+[9.499s] Invoked command in '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver -- -j20 -l20
+[9.522s] Invoking command in '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver
+[9.531s] -- Install configuration: ""
+[9.532s] -- Execute custom install script
+[9.532s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/rosidl_interfaces/netft_rdt_driver
+[9.543s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_generator_c__visibility_control.h
+[9.559s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__functions.h
+[9.576s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__struct.h
+[9.594s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__type_support.h
+[9.610s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/string_cmd.h
+[9.627s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/library_path.sh
+[9.645s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/library_path.dsv
+[9.662s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.673s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_fastrtps_c.h
+[9.685s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.701s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__builder.hpp
+[9.718s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__struct.hpp
+[9.732s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__traits.hpp
+[9.744s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__type_support.hpp
+[9.755s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/string_cmd.hpp
+[9.766s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.779s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[9.793s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.812s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_introspection_c.h
+[9.824s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/include/netft_rdt_driver/netft_rdt_driver/srv/detail/string_cmd__rosidl_typesupport_introspection_cpp.hpp
+[9.843s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/pythonpath.sh
+[9.859s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/pythonpath.dsv
+[9.872s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/PKG-INFO
+[9.882s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/SOURCES.txt
+[9.895s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/dependency_links.txt
+[9.909s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver-0.0.0-py3.12.egg-info/top_level.txt
+[9.921s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/__init__.py
+[9.940s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/_netft_rdt_driver_s.ep.rosidl_typesupport_c.c
+[9.953s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/_netft_rdt_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.963s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/_netft_rdt_driver_s.ep.rosidl_typesupport_introspection_c.c
+[9.976s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/libnetft_rdt_driver__rosidl_generator_py.so
+[9.985s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so
+[9.996s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so
+[10.008s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so
+[10.020s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/__init__.py
+[10.032s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/_string_cmd.py
+[10.049s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/_string_cmd_s.c
+[10.067s] -- Up-to-date symlink: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_fastrtps_c.cpython-312-x86_64-linux-gnu.so
+[10.068s] -- Up-to-date symlink: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_introspection_c.cpython-312-x86_64-linux-gnu.so
+[10.068s] -- Up-to-date symlink: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/netft_rdt_driver_s__rosidl_typesupport_c.cpython-312-x86_64-linux-gnu.so
+[10.068s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd.idl
+[10.083s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd.srv
+[10.101s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd_Request.msg
+[10.114s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/srv/StringCmd_Response.msg
+[10.130s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/netft_rdt_driver/libnetft_rdt_driver_lib.a
+[10.145s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/netft_rdt_driver/netft_node
+[10.159s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/README.md
+[10.169s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_2_sensors.launch
+[10.180s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_bringup.launch.py
+[10.201s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_nano_sensor.launch
+[10.213s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_sensor.launch
+[10.225s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/ft_sensor.perspective
+[10.236s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/launch/launch_rqt.sh
+[10.249s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/config/setup.yaml
+[10.262s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/package_run_dependencies/netft_rdt_driver
+[10.276s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/parent_prefix_path/netft_rdt_driver
+[10.292s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/ament_prefix_path.sh
+[10.303s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/ament_prefix_path.dsv
+[10.313s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/path.sh
+[10.327s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/environment/path.dsv
+[10.341s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.bash
+[10.356s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.sh
+[10.374s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.zsh
+[10.390s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/local_setup.dsv
+[10.409s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/package.dsv
+[10.423s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/ament_index/resource_index/packages/netft_rdt_driver
+[10.439s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/rosidl_cmake-extras.cmake
+[10.448s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.455s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.462s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[10.471s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/ament_cmake_export_targets-extras.cmake
+[10.481s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.490s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.503s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driverConfig.cmake
+[10.517s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driverConfig-version.cmake
+[10.531s] -- Symlinking: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/package.xml
+[10.544s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_c.so
+[10.545s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_c.so" to ""
+[10.545s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_c.so
+[10.546s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[10.546s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_cpp.so
+[10.547s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.548s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_c.so
+[10.548s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_c.so" to ""
+[10.548s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_c.so
+[10.549s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_c.so" to ""
+[10.549s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_cpp.so
+[10.550s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[10.550s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_cpp.so
+[10.550s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_typesupport_cpp.so" to ""
+[10.591s] Listing '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver'...
+[10.591s] Compiling '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/__init__.py'...
+[10.591s] Listing '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv'...
+[10.591s] Compiling '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/__init__.py'...
+[10.592s] Compiling '/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/python3.12/site-packages/netft_rdt_driver/srv/_string_cmd.py'...
+[10.598s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_py.so
+[10.598s] -- Set runtime path of "/home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/lib/libnetft_rdt_driver__rosidl_generator_py.so" to ""
+[10.598s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_cExport.cmake
+[10.598s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_cExport-noconfig.cmake
+[10.598s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[10.598s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.598s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_cppExport.cmake
+[10.599s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.599s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.599s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cExport.cmake
+[10.599s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.599s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cExport.cmake
+[10.599s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cExport-noconfig.cmake
+[10.600s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cppExport.cmake
+[10.600s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.600s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cppExport.cmake
+[10.601s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/netft_rdt_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[10.601s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_pyExport.cmake
+[10.601s] -- Installing: /home/leo/Desktop/ati_ft_docker/ros2/install/netft_rdt_driver/share/netft_rdt_driver/cmake/export_netft_rdt_driver__rosidl_generator_pyExport-noconfig.cmake
+[10.604s] Invoked command in '/home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/leo/Desktop/ati_ft_docker/ros2/build/netft_rdt_driver
