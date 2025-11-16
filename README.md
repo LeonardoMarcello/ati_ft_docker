@@ -39,6 +39,11 @@ To manually configure the device parameters go to [**setup file**](https://githu
 ./ati-configure.sh
 ```
 
+**3. Build the image again**
+
+```bash
+docker compose build
+```
 **3. Activate the Device**
 
 ```bash
